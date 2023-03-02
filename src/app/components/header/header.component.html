@@ -1,0 +1,21 @@
+
+
+
+<div class="header">
+    <div class="header__hamburger" (click)="onMenuClick()" >🍔</div>
+    <div class="header__title">
+      {{title}}
+    </div>
+
+</div>
+
+<app-sidebar [list]="list" [sidebarOpen]="sidebarOpen" (onClose)="closeSidebar()" (onButtonClick)="buttonClickedHandler($event)" ></app-sidebar>
+
+
+
+
+
+
+
+
+<!-- 🌭 -->

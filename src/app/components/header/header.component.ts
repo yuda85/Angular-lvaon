@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   private buttonHandler: {[key: string]: any} = {
-    first: this.handleFirst,
-    second: this.handleSecond
+    timer: this.handleFirst,
+    stopper: this.handleSecond
   }
 
 
